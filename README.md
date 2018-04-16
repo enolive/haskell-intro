@@ -2,4 +2,4 @@
 
 Small intro about what I learned by learning haskell.
 
-This presentation was done using [reveal.js](https://revealjs.com/#/).
+This presentation waWhat s done using [reveal.js](https://revealjs.com/#/).

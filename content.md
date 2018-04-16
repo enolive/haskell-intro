@@ -1,6 +1,4 @@
-# Haskell
-
-## What I learned for greater good
+# What I learned by learning Haskell 
 
 - <i class="fa fa-user"></i>&nbsp;Christoph Welcz
 - <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;18.04.2018
@@ -39,7 +37,8 @@ Note: Source [Wikipedia](https://en.wikipedia.org/wiki/Self-flagellation)
 
 <section tagcloud large>
 First Class Functions
-Infix
+Infix Syntax
+Recursion
 Function Composition
 Guards
 Pattern Matching
@@ -49,7 +48,11 @@ Partial Application
 (Un-)Currying
 Eta Conversion
 (Un-)Folding
-Crazy Stuff 
+Zipping
+Functors
+Maybe
+Either
+Crazy Stuff 😉
 </section>
 
 <--->
