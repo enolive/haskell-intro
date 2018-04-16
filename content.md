@@ -17,7 +17,7 @@ Note: Source [Wikipedia](https://en.wikipedia.org/wiki/Self-flagellation)
 
 - force myself to use FP
 - leave my comfort zone
-- undestand libraries like [Ramda](http://ramdajs.com/) or [Vavr](http://www.vavr.io/).
+- understand libraries like [Ramda](http://ramdajs.com/) or [Vavr](http://www.vavr.io/).
 
 <--->
 
@@ -54,6 +54,35 @@ Maybe
 Either
 Crazy Stuff 😉
 </section>
+
+<--->
+
+## Haskell Stack Commands
+
+```bash
+# creates a new project using the default template
+stack new my-project name
+# starts the interactive compiler (aka REPL)
+stack ghci
+# starts the local hoogle documentation server
+stack hoogle server
+# runs all tests
+stack test
+```
+
+<--->
+
+## Important GHCi Commands
+
+|Command|Meaning|
+|---|---|
+|:r|Reloads all modules|
+|:t TYPE|Shows type information|
+|:m MODULE|loads the given module (public-only)|
+|:m *MODULE|loads the given module (all)|
+|:l FILE|loads the given file into the module|
+|Ctrl+C|cancels the current command|
+|Ctrl+D|exit REPL|
 
 <--->
 
