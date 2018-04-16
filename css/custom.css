@@ -1,11 +1,10 @@
-
 /* Code ------------------------------------------------ */
 
 /* Reveal.Js fragments in code: All personal styles must be "registered" here */
 .reveal .slides section .fragment.mycodemark,
 .reveal .slides section .fragment.my-semi-hide {
-  opacity: 1;
-  visibility: inherit; 
+    opacity: 1;
+    visibility: inherit;
 }
 
 /* Reveal.Js fragments in code: personal styles are customized here */
@@ -20,6 +19,7 @@
 .reveal .slides section .mycodemark-always {
     font-weight: bold;
 }
+
 .reveal .slides section .mycodemark-highlight .hljs-comment {
     font-weight: bold;
     color: black;
@@ -50,9 +50,17 @@
 /* Image customizations ------------------------------ */
 
 /* Resize images according to alt text */
-img[alt^=fun-] { width: 800px; }
-img[alt^=funx-] { height: 550px; }
-img[alt^=fullscreen-] {width: 100%; }
+img[alt^=fun-] {
+    width: 800px;
+}
+
+img[alt^=funx-] {
+    height: 550px;
+}
+
+img[alt^=fullscreen-] {
+    width: 100%;
+}
 
 /* Remove border for some images --------------------- */
 .reveal section img[alt^=noborder-] {
@@ -65,6 +73,11 @@ span.clouditem {
     padding-right: 0.05em;
     line-height: 90%;
     letter-spacing: -0.015em;
+}
+
+/* adds some fancy outline to a text */
+.outline {
+    text-shadow: 0 0 5px black;
 }
 
 /* SCC logo ---------------------------------------- */

@@ -9,7 +9,9 @@
 
 ## Why Haskell?
 
-![funx-flagellation](resources/Striding_flagellant.jpg)
+<-->
+
+<!-- .slide: class="outline" "data-background-image="resources/Striding_flagellant.jpg" -->
 
 Note: Source [Wikipedia](https://en.wikipedia.org/wiki/Self-flagellation)
 
@@ -22,6 +24,8 @@ Note: Source [Wikipedia](https://en.wikipedia.org/wiki/Self-flagellation)
 <--->
 
 <!-- .slide: data-background-image="resources/fp-club.png" -->
+
+Note: Source [Fight Club](https://en.wikipedia.org/wiki/Fight_Club)
 
 <--->
 
