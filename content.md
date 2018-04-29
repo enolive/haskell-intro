@@ -1,7 +1,7 @@
 # What I learned by learning Haskell 
 
 - <i class="fa fa-user"></i>&nbsp;Christoph Welcz
-- <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;18.04.2018
+- <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;03.05.2018
 - <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;[@ChristophWelcz](https://twitter.com/ChristophWelcz)
 - <i class="fa fa-github" aria-hidden="true"></i>&nbsp;[github.com/enolive/haskell-intro](https://github.com/enolive/haskell-intro)
 
@@ -32,10 +32,20 @@ Note: Source [Fight Club](https://en.wikipedia.org/wiki/Fight_Club)
 ![noborder-haskell logo](resources/haskell-logo.png)
 
 - Pure functional language
-- Static typed
+- Statically typed
 - First version 1990
 - For mathematicians
-- GHC (Glasgow Haskell Compiler)
+
+<-->
+
+|Tool|Description|
+|---|---|
+|GHC|**G**lasgow **H**askell **C**ompiler|
+|GHCi|GHC interactive, aka REPL|
+|Stack|project templates, dependency management, build|
+|Hoogle|documentation database|
+|HSpec|write and run tests with a BDD syntax similar to RSpec|
+|HLint|the linter, d'oh!|
 
 <--->
 
@@ -66,7 +76,7 @@ Crazy Stuff 😉
 ```bash
 # creates a new project using the default template
 stack new my-project name
-# starts the interactive compiler (aka REPL)
+# starts the REPL
 stack ghci
 # starts the local hoogle documentation server
 stack hoogle server
@@ -85,8 +95,6 @@ stack test
 |:m MODULE|loads the given module (public-only)|
 |:m *MODULE|loads the given module (all)|
 |:l FILE|loads the given file into the module|
-|Ctrl+C|cancels the current command|
-|Ctrl+D|exit REPL|
 
 <--->
 

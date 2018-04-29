@@ -37,7 +37,7 @@ fizzBuzz n
 -- Function composition
 -- prevent nested brackets
 upperCaseFirst sentence = toUpper (head sentence) : tail sentence
-upperCaseFirst3 sentence = toUpper . head sentence : sentence
+upperCaseFirst3 sentence = (toUpper . head) sentence : sentence
 
 filterPhone phone = (map digitToInt . filter isDigit) phone
 
@@ -85,6 +85,13 @@ fizzBuzzListComprehension n = joinResult [result | (appliesTo, result) <- fizzBu
   where
     joinResult [] = show n
     joinResult result = intercalate "-" result
+
+quicksort [] = []
+quicksort all@(x:xs) = quicksort left ++ mid ++ quicksort right
+  where
+    left = [y | y <- xs, y < x]
+    right = [y | y <- xs, y > x]
+    mid = [y | y <- all, y == x]
 
 -- Folding/Unfolding
 -- alternative to recursion
