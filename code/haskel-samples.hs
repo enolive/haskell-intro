@@ -125,6 +125,9 @@ upperCaseFirstWtf :: String -> String
 -- upperCaseFirstWtf = liftM2 (:) (toUpper . head) tail
 upperCaseFirstWtf = return (:) `ap` (toUpper . head) `ap` tail
 
+-- areAllUniqueWithApp = fmap (==) `ap` nub `ap` id
+areAllUniqueWithApp = (==) <$> nub <*> id
+
 -- Function application with on
 -- equalsIgnoreCase a b = map toLower a == map toLower b
 equalsIgnoreCase = (==) `on` map toLower
